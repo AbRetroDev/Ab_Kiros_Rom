@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ab_Kiros_ROM", "Ab_Kiros_ROM\Ab_Kiros_ROM.csproj", "{801E8728-94EF-4275-85E3-D1799D7F91E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{801E8728-94EF-4275-85E3-D1799D7F91E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{801E8728-94EF-4275-85E3-D1799D7F91E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{801E8728-94EF-4275-85E3-D1799D7F91E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{801E8728-94EF-4275-85E3-D1799D7F91E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A4F685D-23F7-4BAE-8FE6-A6EDE46819A5}
+	EndGlobalSection
+EndGlobal
