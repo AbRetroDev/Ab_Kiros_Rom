@@ -9,8 +9,9 @@ namespace Ab_Kiros_ROM.Models
 {
     public class Visits
     {
+        [Key]
         public int visits_ID { get; set; }
-        [ForeignKey("Doctor")]        
+        [ForeignKey("Doctor")]
         public int doctor_ID { get; set; }
         [ForeignKey("Client")]
         public int client_ID { get; set; }

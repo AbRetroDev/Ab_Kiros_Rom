@@ -8,8 +8,9 @@ namespace Ab_Kiros_ROM.Models
 {
     public class Doctor : Person
     {
-        public int doctor_ID { get; set; }        
-        Dictionary<String,String> dr_speciality { get; set; }
+        [Key]
+        public int doctor_ID { get; set; }
+        Dictionary<String, String> dr_speciality { get; set; }
         public String country_Code { get; set; }
     }
 }

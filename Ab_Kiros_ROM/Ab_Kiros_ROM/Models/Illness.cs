@@ -8,7 +8,7 @@ namespace Ab_Kiros_ROM.Models
 {
     public class Illness
     {
-        
+        [Key]
         public int illness_ID { get; set; }
         public String illness_Name { get; set; }
     }

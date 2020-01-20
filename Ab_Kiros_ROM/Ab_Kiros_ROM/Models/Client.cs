@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Ab_Kiros_ROM.Models
 {
-    public class Client:Person
+    public class Client : Person
     {
         
         public int client_ID { get; set; }
