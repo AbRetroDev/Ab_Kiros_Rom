@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace Ab_Kiros_ROM.Models
 {
-    public class Person
+    public abstract class Person
     {
       
+            
             public Guid person_ID { get; set; }
             public string first_name { get; set; }
             public string surname { get; set; }
